@@ -1,6 +1,5 @@
 Hi, I’m @MubashirUsman
-I’m interested in intelligent engineering, for example navigation of a robot in an unseen environment....
-I’m looking to collaborate on research projects involving deep learning and control theory....
+I like computers.
 
 
 <!---
