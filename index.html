@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Personal Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #aboutSection {
+            background-color: rgb(225, 238, 180);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #about{
+            color: rgb(145, 24, 24);
+            font-weight: bold;
+        }
+        #imageProfile {
+            width: 30%;
+            height: 30%;
+        }
+        .headings {
+            text-align: center;
+            font: Helvetica;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30;
+            font-weight: bold;
+        }
+
+        .meClass {
+            color: rgb(145, 24, 24);
+            font-size: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #study {
+            background-color: rgb(250, 250, 184);
+            font-size: 20px;
+            color: rgb(10, 145, 44);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #studyProgramme {
+            color: rgb(145, 24, 24);
+        }
+
+        .hobbiesClass {
+            background-color: rgb(225, 238, 180);
+            color: rgb(145, 24, 24);
+            font-size: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #usefulWebsiteHeading {
+            color: rgb(145, 24, 24);
+        }
+
+        #hobbies {
+            color: rgb(10, 145, 44);
+        }
+
+        .usefulLinks {
+            background-color: rgb(250, 250, 184);
+            font-size: 20px;
+            color: rgb(10, 145, 44);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .info {
+            background-color: rgb(250, 250, 184);
+            font-size: 20px;
+            color: rgb(145, 24, 24);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="aboutSection, container" id="aboutSection">
+        <h1 class="headings" id="about">About</h1>
+        <img id="imageProfile" src="img1.JPG" class="rounded mx-auto d-block" alt="Profile Image">
+        <p class="meClass" id="me">My name is <b>Mubashir</b>. I am passionate
+            about computers. My favorite
+            subjects are computer networks and
+            programming. In addition to that I support
+            the idea of <a href="https://www.gnu.org/philosophy/free-sw.en.html">free software</a>.
+        </p>
+        <p class="meClass">My <a href="https://www.linkedin.com/in/mubashir-usman-ijaz/"> Linkedin.</a>
+        <a href="https://docs.google.com/document/d/e/2PACX-1vQsrSnY9cefCf3KGL29iO9gStXdYt1M-uq-aHlOZTngYq71SsIZ-MFHb5UMBXqTPgq8WD8CJulPGSxS/pub"> Resume</a>
+        </p>
+    </div>
+    <div class="studyClass, container" id="study">
+        <h1 class="headings" id="studyProgramme">Some Subjects and Topics</h1>
+        <p>Following are some interesting subjects (topics) that I have studied.
+        <div>
+            <ul class="row">
+                <li class="col">Programming
+                    <ul>
+                        <li>Variables/Data Types</li>
+                        <li>Loops</li>
+                        <li>Coditionals</li>
+                        <li>Functions</li>
+                        <li>Recursion</li>
+                        <li>File Handling</li>
+                        <li>Exceptions Handling</li>
+                        <li>Object Oriented Programming</li>
+                    </ul>
+                </li>
+                <li class="col">Computer Networks
+                    <ul>
+                        <li>Network Devices</li>
+                        <li>OSI and TCP/IP Model</li>
+                        <li>Protocols: TCP,UDP, IP</li>
+                        <li>Forward/Reverse Proxy and Firewalls</li>
+                        <li>Sockets and Ports</li>
+                        <li>DNS and DHCP</li>
+                        <li>Network Address Translation (NAT)</li>
+                        <li>HTTP, SMTP</li>
+                        <li>Address Resolution Protocol</li>
+                        <li>Port Forwarding</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container" id="hobbies">
+        <div class="hobbiesClass">
+            <h1 class="headings" id="hobbies">Hobbies</h1>
+            <p>In my free time I like learning about philosophical topics
+                and the things our lives revolve around. I also like the articles publised on The Economist
+                (but I hate its not free!).
+            </p>
+            <p>I like the idea of <em>free software</em> and the
+                one of the best open source project is Linux kernal. I
+                like this OS as it is extremely reliable, stable and
+                is used everywhere. I use <b>Ubuntu 22.04</b> at the moment. 
+                Its <b>Unix-like</b> open source OS and its package 
+                repository is very rich. Additionally it comes
+                with <a href="https://opensource.com/article/18/4/gnu-core-utilities"> GNU utilities</a>.
+                Here you can learn more about <a href="https://opensource.com/resources/what-open-source"> open source</a>.
+            </p>
+        </div>
+    </div>
+    <div id="usefulLinks" class="container usefulLinks">
+        <h1 class="headings" id="usefulWebsiteHeading">Some useful websites</h1>
+        <div class="row">
+            <p class="col"><a href="www.google.com">Google</a></p>
+            <p class="col"><a href="#me"> Read About Me</a></p>
+            <p class="col"><a href="#Coursera"> Read About Coursera</a></p>
+            <p class="col"><a href="www.youtube.com">YouTube</a>
+        </div>
+    </div>
+    </div>
+    <div class="container info">
+        <p id="Coursera">Coursera is an online platform for learning. The best
+            part is its courses are free and courses are very
+            high quality as they are prepared by world well known
+            universities i.e University of Michigan and organisations like Google.
+            With Coursera I have met some of the best teachers like <a href="https://www.dr-chuck.com/"> Dr. Chuck</a>
+            and Dr. Andrew Ng. You can read more about <a href="https://www.andrewng.org/"> him.</a>.
+        </p>
+    </div>
+    </p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
